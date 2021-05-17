@@ -1,0 +1,6 @@
+The iterative function will return the number after a second, but the recursive
+function crashes before it can get there. Python limits recursion to 997 to
+prevent stack overflow, and to reach 1000! the program needs to recurse more than 
+996 times. Stack overflow occurs when too many items are written to the same stack,
+which can cause the code to break down, so Python artificially limits the amount
+of possible recursions to prevent this.

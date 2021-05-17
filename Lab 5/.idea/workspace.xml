@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9fdafaf-7b81-40ab-87ad-f6b483e6be99" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bbVz8RNQlPwezsJ8kf1Msdtsqn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for lab5_tests.TestCases.test_tree_map">
+    <configuration name="invert_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab 5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/invert_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for invert_list_tests.TestCases.test_invert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Lab 5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;invert_list_tests.TestCases.test_invert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for lab5_tests.TestCases.test_bst" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Lab 5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;lab5_tests.TestCases.test_bst&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for lab5_tests.TestCases.test_tree_map" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Lab 5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;lab5_tests.TestCases.test_tree_map&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in lab5_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Lab 5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab5_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for lab5_tests.TestCases.test_tree_map" />
+        <item itemvalue="Python tests.Unittests in lab5_tests.py" />
+        <item itemvalue="Python tests.Unittests for lab5_tests.TestCases.test_bst" />
+        <item itemvalue="Python tests.Unittests for invert_list_tests.TestCases.test_invert" />
+        <item itemvalue="Python.invert_list" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9fdafaf-7b81-40ab-87ad-f6b483e6be99" name="Default Changelist" comment="" />
+      <created>1588901039284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588901039284</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1589176338751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.bottom/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@-1080.-433.1080.1880" timestamp="1588907852394" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1589176338751" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1589176338751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.center/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@-1080.-433.1080.1880" timestamp="1588907852393" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1589176338751" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1589176338750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.left/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@-1080.-433.1080.1880" timestamp="1588907852393" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1589176338750" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1589176338751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.right/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@-1080.-433.1080.1880" timestamp="1588907852393" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1589176338751" />
+    <state x="1920" y="0" width="1619" height="1026" key="dock-window-1" timestamp="1589672953388">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="0" width="1619" height="1026" key="dock-window-1/1920.0.1920.1040/3840.305.1536.824/-1080.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1589672953388" />
+  </component>
+</project>

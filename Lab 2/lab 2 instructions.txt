@@ -1,0 +1,115 @@
+ Implement an ordered list using doubly linked list 
+
+Background
+The structure of an ordered list is a collection of items where each item holds a relative position that is based upon some underlying characteristic of the item. The ordering is typically either ascending or descending and we assume that list items have a meaningful comparison operation that is already defined. Many of the ordered list operations are the same as those of the unordered list. 
+
+If you want to know more about Unordered List and Ordered List ADT, please read (but do not follow the example code because it is not Pythonic) https://runestone.academy/runestone/books/published/pythonds/BasicDS/ImplementinganUnorderedListLinkedLists.html (Links to an external site.)
+
+https://runestone.academy/runestone/books/published/pythonds/BasicDS/TheOrderedListAbstractDataType.html (Links to an external site.)
+
+Instructions
+Implement the following operations for an ordered list of integers ordered in ascending order using a doubly linked list. Create a Node class with two pointers, next and prev. Let the “head” of the list be where the “smallest item is, and let the “tail” be where the largest item is. 
+
+Use the following data definition to implement doubly linked lists:
+
+class Node:
+
+    """ A node of a list
+
+    Attributes:
+
+        val (int): the payload
+
+        next (Node): the next item in the list
+
+        prev (Node): the previous item in the list
+
+    """
+
+OrderedList () creates a new ordered list that is empty. It needs no parameters and returns an empty list. The following functions belong to OrderedList, thus they are methods. The first argument, self, is omitted in the descriptions below, but you need to have it as the first argument. It is strongly recommended to use recursive helper functions to implement most of the methods. For example, create add_helper(head, tail, item)->(Node, Node) function which returns new head and tail. Helper functions can be top level functions (functions not in a class).
+
+Use the following data definition for the OrderedList:
+
+class OrderedList:
+
+    """an ordered list
+
+    Attributes:
+
+        head (Node): a pointer to the head of the list
+
+        tail (Node): a pointer to the tail of the list
+
+        num_items (int): the number of items stored in the list
+
+    """
+
+Create a file named, ordered_list.py, and include classes for the aforementioned data definitions, the following methods, and their helper functions in the file.
+
+add(item) adds a new item (int) to the list making sure that the order is preserved. It needs the item and returns nothing. Assume the item is not already in the list. 
+remove(item) removes the item (int) from the list. It needs the item and modifies the list. Return the position of the removed item if it is in the list, otherwise raise ValueError. 
+search_forward(item) searches for the item (int) in the list. It needs the item and returns the boolean value True if the item is in the list and False if the item is not in the list. 
+search_backward(item) searches for the item (int) in the list starting from the tail of the list. It needs the item and returns the boolean value True if the item is in the list and False if the item is not in the list. 
+is_empty () tests to see whether the list is empty. It needs no parameters and returns a boolean value. True if the list is empty and False if any items are in the list. 
+size () returns the number of items in the list (self.num_items). It needs no parameters and returns an integer. 
+index (item) returns the position of item (int) in the list. It needs the item and returns the index. If it is not in the list, it raises ValueError. 
+pop (pos=None) takes an optional argument pos and removes and returns the last item in the list if the argument is not passed. If the argument is passed, it removes and returns the item at position pos. If there is no item in that position (the position is out of bound), it raises IndexError. pop(pos) should compare pos to the size of the list and search from the head if pos <= size/2 and from the rear if pos > size/2. Think about the advantage of doing this as opposed to always traversing from the head. 
+ 
+
+An example:
+
+    def search_forward(self, item):
+
+        """searches a specified item in the list starting from the head.
+
+        Args:
+
+            item (int): the value to be searched in the list
+
+        Returns:
+
+            bool: True if found, False otherwise.
+
+        """
+
+        return self.search_forward_helper(self.head, item)
+
+
+
+
+    def search_forward_helper(self, node, item):
+
+        """a helper function for searching an item forward
+
+        Args:
+
+            node (Node): a node
+
+            int (item): a value to search for in the list
+
+        Returns:
+
+            bool: True if found, False otherwise.
+
+        """
+
+        if node is None:
+
+            return False
+
+        if node.val == item:
+
+            return True
+
+        return self.search_forward_helper(node.next, item)
+
+
+
+
+Write separate tests for each method/function in ordered_list_tests.py. Your tests should cover all the lines of code of your program. Coverage will be used to grade your tests.
+
+Submit your work including the tests to the grader and then submit all files to Canvas. 
+
+Zip all files including ordered_list.py (containing all your implementations including OrderedList and Node classes) and ordered_list_tests.py, into one zip file and submit it to gradzilla, then to Canvas. Please do not put files in a directory and zip it.
+
+Follow the 6 steps of the design recipe and do not forget to provide docstrings for class and function definitions. For each operation on OrderedList, consider its time complexity in Big-O notation: include it in the docstring. All your classes need to have the three boilerplate methods(__init__, __repr__, and __eq__). For Node class, you avoid using both next and prev recursively in __eq__ and __repr__: use only one of them otherwise your program would run into max recursion limit error. Pylint (for Python3) will be used to rate your coding style.
